@@ -1,0 +1,177 @@
+*{
+    margin: 0;;
+    padding: 0;
+
+}
+body{
+    background-image:linear-gradient(rgba(0,0,0,0.3) , rgba(0,0,0,0.7)), url(../img/DBS2.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+
+     
+    
+    background-repeat: no-repeat;
+    
+}
+
+h1{
+    text-align: center;
+    padding: 20px;
+}
+.form{
+    color: cornflowerblue;
+}
+
+.tagline{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 300;
+    font-family: sans-serif;
+}
+
+.register{
+    border: solid 1px lightpink;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 500px;
+    height: 500px;
+    margin: 0px 0px 0px 490px;
+    margin-top: -18px;
+    color:#fff;
+    font-size: 18px;
+    padding: 2px;
+    padding-bottom: 60px;
+    border-radius: 10px;
+    box-sizing: absolute;
+}
+
+.outerdiv{
+    padding-bottom: -150px;
+    transform: translate(-10%,-18%);
+}
+
+#register{
+    margin-left: 50px;
+}
+
+#here{
+    margin-left: 140px;
+}
+
+label{
+    color: white;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-style: italic;
+
+}
+
+
+#fname{
+width: 300px;
+height: 20px;
+border: none;
+border-bottom: 1px solid #fff;
+padding: 7px;
+outline: 0px;
+font-size: 16px;
+color: #fff;
+background: transparent;
+}
+
+
+#lname
+{
+    width: 300px;
+    height: 20px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    padding: 7px;
+    outline: 0px;
+    font-size: 16px;
+    color: #fff;
+    background: transparent;
+}
+
+
+#mail{
+    width: 300px;
+height: 20px;
+border: none;
+border-bottom: 1px solid #fff;
+padding: 7px;
+outline: 0px;
+font-size: 16px;
+color: #fff;
+background: transparent;
+}
+
+
+#pass{
+    width: 300px;
+height: 20px;
+border: none;
+border-bottom: 1px solid #fff;
+padding: 7px;
+outline: 0px;
+font-size: 16px;
+color: #fff;
+background: transparent;
+}
+
+
+#cpass{
+    width: 300px;
+height: 20px;
+border: none;
+border-bottom: 1px solid #fff;
+padding: 7px;
+outline: 0px;
+font-size: 16px;
+color: #fff;
+background: transparent;
+}
+
+
+#pnum{
+    width: 243px;
+height: 20px;
+border: none;
+border-bottom: 1px solid #fff;
+padding: 7px;
+outline: 0px;
+font-size: 16px;
+color: #fff;
+background: transparent;
+}
+
+#ph{
+    width: 55px;
+    
+border: none;
+border-bottom: 1px solid #fff;
+padding: 7px;
+outline: 0px;
+font-size: 16px;
+color: #fff;
+background: transparent;
+}
+
+#sub{
+    background-color: rgb(165, 7, 7);
+    width: 200px;
+    padding: 7px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-style: italic;
+    font-weight: 600;
+    border: none;
+    border-radius: 3px;
+    outline: 0;
+    color: white;
+    
+}
+
+#sub:hover{
+    background-color: dodgerblue;
+}

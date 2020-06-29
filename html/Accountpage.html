@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!--<link rel="stylesheetcss" href="Accountpage.css"> -->
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="UTF-8">
+   
+   
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+      
+      .navbar{
+      
+    margin: 0px;
+    padding: 0px;
+    background-color: brown;
+}
+
+nav{
+ 
+    width: 100%;
+    height: 100px;
+     background-color: aquamarine; 
+
+}
+
+nav ul{
+    float: right;
+    margin-right: 120px;
+    margin-top: 30px;
+}
+
+nav li{
+    list-style: none;
+    display: inline-block;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+#logo{
+    height: 90px;
+    width: 150px;
+    padding: 7px;
+}
+.tagline{
+    margin-top: -35px;
+    margin-left: 180px;
+    font-size: 22px;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    color: rgb(245, 238, 238);
+}
+#dcurrentBalance{
+   margin-left: 20px;
+   font-size: 25px;
+   font-weight: 600;
+   color: red;
+
+}
+#currentbalance{
+  
+    height: 20px;
+    border: solid 2px rosybrown;
+    border-radius: 5px;
+    padding: 7px;
+    outline: 0px;
+
+    color:black;
+    background: transparent;
+}
+#dDiscription{
+  margin-left: 20px;
+   font-size: 25px;
+   font-weight: 600;
+   color: red;
+}
+#Discription{
+  margin-left: 48px;
+  width: 300px;
+    height: 20px;
+    border: solid 2px rosybrown;
+    border-radius: 5px;
+    padding: 7px;
+    outline: 0px;
+    font-size: 20px;
+    color:black;
+    background: transparent;
+}
+#dAmount{
+  margin-left: 20px;
+   font-size: 25px;
+   font-weight: 600;
+   color: red;
+}
+#Amount{
+  margin-left: 100px;
+  width: 300px;
+    height: 20px;
+    border: solid 2px rosybrown;
+    border-radius: 5px;
+    padding: 7px;
+    outline: 0px;
+    font-size: 20px;
+    color:black;
+    background: transparent;
+}
+#dselect{
+
+  margin-left: 50px;
+   font-size: 25px;
+   font-weight: 600;
+   color: red;
+}
+#list{
+  width: 300px;
+    height: 40px;
+    border: solid 2px rosybrown;
+    border-radius: 5px;
+    padding: 7px;
+    outline: 0px;
+    font-size: 20px; 
+    color: turquoise;
+    
+    
+    
+}
+table,tr,td{
+  border: 1px solid red
+}
+.colsapan,.td{font-size: 18px;color: rgb(250, 8, 8);
+}
+#myTable{
+  float:right;margin-right: 200px;
+  margin-top: 80px;
+  height: 20px;
+  width: 30px;
+  color: black;
+  text-align: center;
+}
+#myTable2{
+  float:left;margin-left: 300px;
+  margin-top: 80px;
+  height: 20px;
+  width: 30px;
+  color: black;
+  text-align: center;
+
+}
+#filter{
+  margin-left: 200px;
+  
+}
+
+#dreset{
+  float:right;
+  margin-right: 300px;
+  color:brown;
+  font-size: 25px;
+}
+#dsubmit{
+  margin-left: 300px;
+  color:brown;
+  font-size: 25px;
+}
+#click,#reset{
+  background-color:brown;
+  width: 100px;
+  height: 30px;
+  border-radius: 5px;
+  font-size: 18px;
+  color: white;
+  outline: 0px;
+  font-weight: 400px;
+  font-family:Arial, Helvetica, sans-serif;
+}
+td{
+  height: 40px;
+  width: 100px;
+  color: red;
+  font-size: 20px;
+}
+#msg{
+  font: 18px;
+  color: red;
+}
+.a{
+  width: 300px;
+  height: 20px;
+    border: solid 2px rosybrown;
+    border-radius: 5px;
+    padding: 7px;
+    outline: 0px;
+    font-size: 20px;
+    color:black;
+    background: transparent;
+}
+
+    </style>
+</head>
+<body>
+  
+
+  <nav class="navbar">
+    <ul>
+      <li><a href="#"><i class="fa fa-file-text-o"></i>&nbsp;&nbsp; ABOUT US</a></li>&nbsp;&nbsp;
+      <li><a href="#"><i class="fa fa-group"></i>&nbsp;&nbsp;WORK WITH US</a></li>&nbsp;&nbsp;
+      <li><a href="#"><i class="fa fa-cogs"></i>&nbsp;&nbsp;SERVICES</a></li>&nbsp;&nbsp;
+      <li><a href="#"><i class="fa fa-location-arrow"></i>&nbsp;&nbsp;LOCATE US</a></li>&nbsp;&nbsp;
+      <li><a href="#"><i class="fa fa-envelope"></i>&nbsp;&nbsp;CONTACT US</a></li>&nbsp;&nbsp;
+     </ul>
+     <img src="../img/dbslogo.jpg" id="logo">
+     <h3 class="tagline">Live More, Bank Less</h3>
+</nav><br><br>
+  <form method="dialog">
+<div id="dcurrentBalance">Current Balance__<i class="fa fa-inr"></i>:<input type="text"
+    placeholder="enter here" value="10000" id="currentBalance" class="a"></div><br>
+<div id="dDiscription">Discription__<i class="fa fa-file-text-o" aria-hidden="true"></i>:<input type="text"
+        value="" id="Discription" class="a"></div><br>
+   
+ <div id="dAmount">Amount__<i class="fa fa-file-inr" aria-hidden="true"></i>:<input type="text"
+ value="" id="Amount" class="a"><span id="msg"></span></div><br>
+
+ <div id="dselect">
+     <i id="filter"></i>
+<select id="list" value="Click Here">
+ <option>Transaction</option> 
+<option>Deposit</option>
+<option>Withdrawl</option>
+</select></div>
+<div id="dsubmit"><i class="fa fa-inr"></i>
+<input type="submit" value="Submit" id="click"
+ onclick="performOperation(currentBalance.value,Amount.value,Discription.value)" style="height: 30px; width: 100px;">
+</div>
+<div id="dreset"><i class="fa fa-refresh"></i>
+<button type="reset" id="reset" value="Reset" style="height: 30px; width: 100px;">Reset</button></div>
+
+ </div>
+  </form>
+  <table id="myTable">
+<tr><td colspan="2" class="colsapan">Deposit</td></tr>
+<tr>
+  <td class="td">Description</td>
+  <td class="td">Amount</td>
+</tr>
+  </table>
+   <table id="myTable2">
+    <tr><td colspan="2" class="colsapan">Withdraw</td></tr>
+    <tr>
+      <td class="td">Description</td>
+      <td class="td">Amount</td>
+    </tr>
+  </table> 
+</div>
+</body>
+<script src="../JSfiles/Accountpage.js"></script>
+</html>

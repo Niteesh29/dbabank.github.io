@@ -1,0 +1,100 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    /* background-image: url(austin-distel-jpHw8ndwJ_Q-unsplash.jpg); */
+    background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url('../img/austin-distel-jpHw8ndwJ_Q-unsplash.jpg') ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box{
+    border: solid 1px rgb(121, 118, 118);
+    margin: 120px 20px  50px 500px;
+    background: rgba(0,0,0,.5);
+    border-radius: 5px;
+    color: #fff;
+    width: 280px;
+    height: 320px;
+    top: 50px;
+    left: 50px;
+    transform: translate(-20%,-1%);
+    box-sizing: absolute;
+    padding: 70px 30px;
+}
+
+.userimg{
+    margin:100px 700px 500px 360px ;
+    width: 75px;
+    height: 75px;
+    border-radius: 50px;
+    left: 20%;
+    overflow: hidden;
+    position: absolute;
+    top: calc(-100px/2);
+
+
+}
+
+h2{
+    margin: 0px;
+    padding: 0px 0px 20px;
+    text-align: center;
+}
+
+.box p{
+    margin: 0px;
+    padding: 0px;
+    font-weight: 600;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 18px;
+}
+
+#user{width: 250px;
+    height: 25px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    padding: 7px;
+    outline: 0px;
+    font-size: 16px;
+    color: #fff;
+
+}
+
+#pass{
+    width: 250px;
+    height: 25px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    padding: 7px;
+    outline:0px;
+    font-size: 16px;
+    color: #fff;
+}
+
+#sub{
+    margin: 20px;
+    border: solid 1px;
+    border-radius: 5px;
+    outline: 0px;
+    font-size: 18px;
+    background-color: dodgerblue;
+    cursor: pointer;
+    color: #fff;
+    padding: 5px;
+}
+#sub:hover{
+    background-color: darkturquoise;
+}
+
+a{
+    color:#fff ;
+    text-decoration: none;
+
+}
+
+
